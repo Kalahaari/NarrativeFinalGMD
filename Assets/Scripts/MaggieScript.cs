@@ -30,4 +30,9 @@ public class MaggieScript : MonoBehaviour
     {
         anim.Play("Idle");
     }
+
+    public void Talk()
+    {
+        anim.Play("talk");
+    }
 }

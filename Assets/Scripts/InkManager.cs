@@ -5,6 +5,7 @@ using Ink.Runtime;
 using TMPro;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class InkManager : MonoBehaviour
 {
@@ -186,12 +187,6 @@ public class InkManager : MonoBehaviour
                     {
                         maggieScript.Idle();
                     } else if (tagValue == "spirit")
-                    
-                    // add else if (tagValue == "Talk")
-                    // {
-                    // }
-                    // maggieScript.Talk();
-
                     {
                         introManager.GetComponent<introScript>().SpiritAppear();
                     } else if (tagValue == "spiritTalking")
@@ -200,6 +195,12 @@ public class InkManager : MonoBehaviour
                     } else if (tagValue == "maggieTalking")
                     {
                         StoryPanel.GetComponent<Image>().sprite = maggieUI;
+                    } else if (tagValue == "Talk")
+                    {
+                        maggieScript.Talk();
+                    } else if (tagValue == "end")
+                    {
+                        SceneManager.LoadScene(0);
                     }
                     break;
 
