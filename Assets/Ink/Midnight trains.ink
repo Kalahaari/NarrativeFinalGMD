@@ -3,25 +3,26 @@ I really screwed it up this time
 -> Start
 == Start ==
 #maggie:spirit
+#maggie: idle
 // black screen and foley play
 // fade in  and maggie looks sad
 // let the scene sit for a sec
 //Maggie talking
-#maggie: idle
 Oh...
+#maggie:Talk
 it's you again
-Haha…
 I would tell you to fuck off
-#maggie:end
 But I don't have it in me right now
 // Spirit Talking
 #maggie:spiritTalking
+#maggie:idle
 Well it's nice to not be met with anger for once
 So I’ll take that small victory 
 But by the look of your face 
 I’m assuming the fight didn’t end well
 // Maggie Talking
 #maggie:maggieTalking
+#maggie:idle
 * I Lost
 -> Honest
 * Does it Matter?
@@ -29,14 +30,16 @@ I’m assuming the fight didn’t end well
 
 == Combative ==
 // Maggie Talking
-#maggie: closedSmile
+#maggie:Talk 
 I’m still alive 
 That’s what you want right?
 Whatever stupid part of my brain
 That’s so hell bent on stopping what’s going to happen anyway
+#maggie:idle
 …
 // Spirit Talking
 #maggie:spiritTalking
+#maggie: idle
 Death in inevitable
 … 
 But in the meantime 
@@ -59,8 +62,11 @@ I know how the fight ended
 
 == Honest ==
 #maggie:maggieTalking
+#maggie:Talk
 I was winning
+#maggie:idle
 …
+#maggie:Talk
 I was actually winning
 Midnight Morning was actually going to beat the Leviathan 
 But halfway through… 
@@ -68,14 +74,17 @@ I don’t know what happened
 It’s like the world went fuzzy
 And then I could barely move
 #maggie:spiritTalking
+#maggie:idle
 You were using your rage as fuel again
 #maggie:maggieTalking
+#maggie:idle
 * Wouldn’t you? [] When it’s all you have
 -> Again
 * No shit
 -> Again
 
 == Again
+#maggie:Talk
 It had gotten me that far 
 A star fighter in the Pylon Underground Circuit  
 A beacon of pride for the Sump
@@ -83,11 +92,13 @@ That kept me alive
 It kept me fighting
 // Spirit Talking
 #maggie:spiritTalking
+#maggie:idle
 But how much longer would it have lasted?
 Rage is a potent flame 
 But it’s the type of fire that will burn you from the inside out
 // Maggie talking
 #maggie:maggieTalking
+#maggie: Talk
 I know that
 You’ve said it a thousand times before
 Even then… 
@@ -99,15 +110,18 @@ I wouldn’t have had to live like that anymore
 -> CouldLeave
 
 == CouldLeave ==
+#maggie:Talk
 The scripts from that tournament could’ve changed everything 
 I finally would have had enough to get out of fighting
 I could have even started living for myself
 But that’s all gone
 //Spirit Talking
 #maggie:spiritTalking
+#maggie:idle
 What would you have done with the scripts?
 //Maggie
 #maggie:maggieTalking
+#maggie:Talk
 *I would have opened my own mech-shop
 -> MechaShop
 *I would have finally bought that glider
@@ -139,6 +153,7 @@ I want to hear you say it
 
 == Prosthetic ==
 #maggie:maggieTalking
+#maggie:Talk
 Sole’s a good kid
 I remember when he and his mom moved in 
 And he pounded on my door
@@ -150,8 +165,10 @@ He was just at the wrong place at the wrong time
 When those fucking assholes 
 Decided the main drag was the right place
 To settle some stupid beef
+#maggie:idle
 …
 //Maggie looks sad
+#maggie:Talk
 He’s lucky to be alive 
 But now his right arm is gone
 And now 
@@ -164,18 +181,24 @@ he can’t really keep up with the other kids
 And the tools I have right now aren’t precise enough 
 To make a well functioning prosthetic 
 If I had my own mech-shop
+#Maggie:idle
 …
+#maggie:Talk
 Well you get it
 Ha
 I had the chance to make things better for the Sumps
+#Maggie:idle
 …
+#maggie:Talk
 I really screwed it up huh?
+#Maggie:idle
 …
 //Spirit Talking
 #maggie:spiritTalking
 Do you need a mech-shop though?
 //Maggie Talking
 #maggie:maggieTalking
+#maggie:Talk
 * I mean...[] It would help
 -> Love
 * Of Course
@@ -185,26 +208,32 @@ Do you need a mech-shop though?
 == Love ==
 // Spirit Talking
 #maggie:spiritTalking
+#Maggie:idle
 But is it the only way?
 //Maggie Talking
 #maggie:maggieTalking
+#maggie:Talk
 What do you mean?
 // Spirit Talking
 #maggie:spiritTalking
+#Maggie:idle
 Is there no other way you could make Sole 
 Or his mother’s life better?
- 
-// Maggie Talking
+ // Maggie Talking
 #maggie:maggieTalking
+#maggie: closedSmile
 …
 …
 Hmmmm
+#Maggie:Talk
 Wait!
 I have to check my tele-terminal
 But I remember someone leaked the schematics
 From the Altan-Fira corporation
 For these modular crafting systems
-…   
+#Maggie:idle
+…
+#Maggie:Talk
 I could modify those schematics
 And fix some of the old stuff around the Sumps
 * I can do that 
@@ -360,8 +389,10 @@ The kids can’t play outside without a respirator
 == EndingOne ==
 //get better ending
 #maggie:maggieTalking
-hahaha
+#maggie:closedSmile
 ...
+...
+#maggie:Talk
 I want to get better 
 I want to make things better
 The sumps are my home
@@ -369,15 +400,19 @@ I want to have hope
 That things will be alright
 for the people I care about
 //Spirit Talking
+#maggie:idle
 … 
+#maggie:Talk
 I’m only one person
 But I don’t want to give up 
 not yet
 //Spirit Talking
 #maggie:spiritTalking
+#maggie:openSmile
 So what are you going to do?
 //Maggie Talking
 #maggie:maggieTalking
+#maggie:Talk
 I’m going to help the people I can
 *I can make air filters
 -> Good
@@ -386,25 +421,32 @@ I’m going to help the people I can
 = Good
 // Spirit Talking
 #maggie:spiritTalking
+#maggie:closedSmile
 That sounds like a good start
 //Maggie Talk
 // She’s happy
 #maggie:maggieTalking
+#maggie:Talk
 Yeah
+#maggie:openSmile
 …
-It Does   
+It Does
+#maggie:end
     -> END
 == EndingTwo ==
 //rage ending
 #maggie:maggieTalking
+#maggie:Talk
 YOU THINK I SHOULD BE HAPPY LIKE?!?!? 
 FUCK YOU!
 SHOULD I JUST LAY DOWN!?!?!
 AND CHOKE TO DEATH ON THE FACTORY SMOKE!?!?!?
 // Spirit Talking
+#maggie:idle
 That’s not what I meant…
 // Maggie Talking
 #maggie:maggieTalking
+#maggie:Talk
 Should I have to watch the people I care for suffer!?!?!
 I HATE IT!!
 …
@@ -439,13 +481,16 @@ This rage is going to kill you
 I don’t care 
 Fuck off
 // Spirit Talking
+#maggie:idle
 Very well
-//Spirit fades away 
+//Spirit fades away
+#maggie:end
 -> END
 
  == EndingThree ==
 // LDAR ending
 #maggie:maggieTalking
+#maggie:Talk
 That fight was all I had left in me
 I’m so tired 
 Everyday feels like another tragedy
@@ -453,12 +498,14 @@ I feel like throwing up
 Everytime I check my phone
 Because it’s only time 
 Until something awful happens
+#maggie: sad
 And it’s only a matter of time until someone I love 
 Has something awful happen to them
 When I walk down my neighborhood and see another memorial for some poor kid
 And their only goddamn crime was being at the wrong place at the wrong time 
 I want to fucking sob my eyes out  
 It’s awful
+#maggie:idle
 …
 But that’s entropy 
 // Spirit Talking
@@ -466,17 +513,21 @@ But that’s entropy
 What do you mean?
 // Maggie Talking
 #maggie:maggieTalking
+#maggie:Talk
 I mean exactly what I’m saying
 The one thing that's keeping me going 
 Is the fact I’m already alive
 But if that were to change 
 I wouldn’t care
+#maggie:idle
 ...
+#maggie:Talk
 It would probably be for the better too
 And I know whatever stupid part of my brain that made you 
 Is doing its best to keep us alive   
 So I'll keep going 
 For now 
 But I don't expect this train ride to last much longer
+#maggie:end
 -> END
 
