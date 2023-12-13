@@ -186,6 +186,12 @@ public class InkManager : MonoBehaviour
                     {
                         maggieScript.Idle();
                     } else if (tagValue == "spirit")
+                    
+                    // add else if (tagValue == "Talk")
+                    // {
+                    // }
+                    // maggieScript.Talk();
+
                     {
                         introManager.GetComponent<introScript>().SpiritAppear();
                     } else if (tagValue == "spiritTalking")

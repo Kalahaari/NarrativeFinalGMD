@@ -24,17 +24,17 @@ public class introScript : MonoBehaviour
 
     IEnumerator LightFlicker()
     {
+        yield return new WaitForSeconds(0.2f);
+        shadeIllustration.SetActive(true);
+        yield return new WaitForSeconds(0.3f);
+        shadeIllustration.SetActive(false);
+
+        yield return new WaitForSeconds(0.2f);
+        shadeIllustration.SetActive(true);
+        yield return new WaitForSeconds(0.2f);
+        shadeIllustration.SetActive(false);
+
         yield return new WaitForSeconds(0.5f);
-        shadeIllustration.SetActive(true);
-        yield return new WaitForSeconds(0.1f);
-        shadeIllustration.SetActive(false);
-
-        yield return new WaitForSeconds(0.4f);
-        shadeIllustration.SetActive(true);
-        yield return new WaitForSeconds(0.6f);
-        shadeIllustration.SetActive(false);
-
-        yield return new WaitForSeconds(0.8f);
         shadeIllustration.SetActive(true);
         spirit.SetActive(true);
     }

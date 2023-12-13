@@ -7,6 +7,7 @@ I really screwed it up this time
 // fade in  and maggie looks sad
 // let the scene sit for a sec
 //Maggie talking
+#maggie: idle
 Oh...
 it's you again
 Haha…
@@ -27,6 +28,7 @@ I’m assuming the fight didn’t end well
 
 == Combative ==
 // Maggie Talking
+#maggie: closedSmile
 I’m still alive 
 That’s what you want right?
 Whatever stupid part of my brain
@@ -78,9 +80,13 @@ A star fighter in the Pylon Underground Circuit
 A beacon of pride for the Sump
 That kept me alive
 It kept me fighting
+// Spirit Talking
+#maggie:spiritTalking
 But how much longer would it have lasted?
 Rage is a potent flame 
 But it’s the type of fire that will burn you from the inside out
+// Maggie talking
+#maggie:maggieTalking
 I know that
 You’ve said it a thousand times before
 Even then… 
@@ -88,7 +94,7 @@ If I had won that stupid tournament
 I wouldn’t have had to live like that anymore
 * I could've gotten out
 -> CouldLeave
-* That was my one chance to make things better
+* That was my one chance
 -> CouldLeave
 
 == CouldLeave ==
@@ -169,7 +175,7 @@ I really screwed it up huh?
 Do you need a mech-shop though?
 //Maggie Talking
 #maggie:maggieTalking
-* I mean[] It would help
+* I mean...[] It would help
 -> Love
 * Of Course
 -> CanDo
@@ -200,7 +206,7 @@ For these modular crafting systems
 …   
 I could modify those schematics
 And fix some of the old stuff around the Sumps
-* I could get the kids to help
+* I can do that 
 -> EndingOne
 
 *  This could actually work
@@ -312,7 +318,7 @@ The roar of my engine
 Air free from the smog of the factory
 *I was finally free from the haze 
 ->GetOut
-* I actually got to see the stars
+* I dreamt I could see the stars
 ->GetOut 
 
 = GetOut
@@ -324,6 +330,7 @@ I heard from old man Leroy
 #maggie:spiritTalking
 The owner of the bar by your conapt?
 // Maggie talking
+#maggie:maggieTalking
 …
 Yes
 Can I finish my thought?
@@ -352,18 +359,21 @@ The kids can’t play outside without a respirator
 == EndingOne ==
 //get better ending
 #maggie:maggieTalking
-The sumps are my home
-…
-I want to make things better
+hahaha
+...
 I want to get better 
+I want to make things better
+The sumps are my home
 I want to have hope 
 That things will be alright
+for the people I care about
 //Spirit Talking
 … 
 I’m only one person
 But I don’t want to give up 
 not yet
 //Spirit Talking
+#maggie:spiritTalking
 So what are you going to do?
 //Maggie Talking
 #maggie:maggieTalking
@@ -374,6 +384,7 @@ I’m going to help the people I can
 -> Good
 = Good
 // Spirit Talking
+#maggie:spiritTalking
 That sounds like a good start
 //Maggie Talk
 // She’s happy
@@ -400,6 +411,7 @@ If I could...
 I would burn every single Corporation’s pylon to the ground 
 And then burn it all over again just to make sure I finished the job
 // Spirit Talking
+#maggie:spiritTalking
 And what would that do?
 You petulant child
 // Maggie Talking
@@ -414,6 +426,7 @@ You’re a fool
 And you’re some stupid figment of a sump kid’s fractured brain
 So fuck off
 // Spirit Talking
+#maggie:spiritTalking
 Maggie.. 
 I care about you
 And I don’t want you to suffer anymore 
@@ -448,6 +461,7 @@ It’s awful
 …
 But that’s entropy 
 // Spirit Talking
+#maggie:spiritTalking
 What do you mean?
 // Maggie Talking
 #maggie:maggieTalking
