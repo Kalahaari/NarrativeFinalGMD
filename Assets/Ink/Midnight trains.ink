@@ -139,16 +139,16 @@ A mech-shop with all the best tools
 And enough space that I could work on every project I’ve ever wanted to
 //Spirit Talking
 #maggie:spiritTalking
+#maggie: idle
 I have some memories of the blueprints on your wall
-But tell me again
+But tell me about your projects again
 I want to hear you say it
 // Maggie Talking
 //She looks sad
 #maggie:maggieTalking
-…  
 *I could have finally made a decent prosthetic for Sole
 ->Prosthetic
-*I don’t know. Probably tinker with those dumb robot and makes some nice things 
+*I wanted to try my hand at making toys. 
 ->Tinker
 
 == Prosthetic ==
@@ -209,7 +209,7 @@ Do you need a mech-shop though?
 // Spirit Talking
 #maggie:spiritTalking
 #Maggie:idle
-But is it the only way?
+Is it the only way?
 //Maggie Talking
 #maggie:maggieTalking
 #maggie:Talk
@@ -221,8 +221,9 @@ Is there no other way you could make Sole
 Or his mother’s life better?
  // Maggie Talking
 #maggie:maggieTalking
-#maggie: closedSmile
+#maggie: idle
 …
+#maggie: closedSmile
 …
 Hmmmm
 #Maggie:Talk
@@ -231,7 +232,7 @@ I have to check my tele-terminal
 But I remember someone leaked the schematics
 From the Altan-Fira corporation
 For these modular crafting systems
-#Maggie:idle
+#maggie: closedSmile
 …
 #Maggie:Talk
 I could modify those schematics
@@ -245,31 +246,34 @@ And fix some of the old stuff around the Sumps
 == CanDo ==
 // Spirit Talking
 #maggie:spiritTalking
+#Maggie:idle
 You're being myopic Maggie
 What else can you do?
 #maggie:maggieTalking
-*Honestly I don't know
-->Tinker
-* Are you serious?
+*What do you want me to say? 
 ->Rage
+* Try my best?
+->EndingOne
 
 == Tinker ==
 // Maggie Talking
 #maggie:maggieTalking
+#maggie: Talk
 I had this idea 
-To make all these toy robots
-That they could chase after them
-And the robots
- would roll around and sing 
-It would be something fun for the kids in town
+For these robots
+That would roll around and sing
+And the kids could chase them around 
+Nothing super fancy...
+But I thought it would be fun for the kids in town
 But considering how bad the factory smoke is
 And how bold the gangs have gotten
 It’s not safe for them to play outside
 If I had won that tournament
-I could have done something to keep them safe
-* I would give the kids what they deserve
+...
+I could have made things better
+* I could've helped the Sumps
 ->Rage
-* But I can’t do anything 
+* But I can’t do anything now  
 ->Bullet
 == Bullet ==
 // Maggie Talking
@@ -277,9 +281,11 @@ I could have done something to keep them safe
 I despise this feeling 
 // Spirit Talking
 #maggie:spiritTalking
-What Feeling
+#maggie: idle
+What Feeling?
 // Maggie Talking
 #maggie:maggieTalking
+#maggie: Talk
 I don’t really know
 I just feel like I’m just waiting for someone to finally pull the trigger of a gun 
 that’s always been against the side of my head 
@@ -293,13 +299,14 @@ Being pushed and pulled by forces far out of my control
 There’s nothing I can really do
 // Spirit Talking
 #maggie:spiritTalking
+#maggie: idle
 And are you fine with that?
 // Maggie Talking
 #maggie:maggieTalking
 Ha
 ...
 Of course not 
-* But what else can I do
+* But what else can I do?
 -> Hopeless
 * I hate it
 ->Rage
@@ -308,6 +315,8 @@ Of course not
 == Rage ==
 //Spirit Talking
 #maggie:spiritTalking
+#maggie: idle
+Maggie...
 You’re just one human being 
 In the grand scheme of things 
 You’re insignificant 
@@ -315,14 +324,16 @@ You can only do so much
 And you need to learn to be okay with that
 // Maggie Talking
 #maggie:maggieTalking
-So should I just let these assholes walk all over me 
-*Should I let them choke us all out
+#maggie: Talk
+So should these assholes walk all over the sumps? 
+*Should we let them choke us all out
 -> Animal
-*How about they starve us to death
+*How about we starve to death
 -> Animal
 == Animal
 // Spirit Talking
 #maggie:spiritTalking
+#maggie:idle
 You let your emotions control you 
 You act like a wounded animal
 //Maggie mad
@@ -331,11 +342,14 @@ You act like a wounded animal
 -> EndingTwo
 == Glider==
 #maggie:maggieTalking
+#maggie: Talk 
 I would have finally gotten that glider
 // Spirit Talking
 #maggie:spiritTalking
+#maggie: idle
 The one you drool over whenever you go to the Auto-Pylons?
 #maggie:maggieTalking
+#maggie: Talk
 Yep 
 The X sprint-49
 Solar powered cells,
@@ -354,23 +368,29 @@ Air free from the smog of the factory
 = GetOut
 #maggie:maggieTalking
 I’ve never seen the stars before
+#maggie: idle
 … 
+#maggie: Talk
 I heard from old man Leroy
 // spirit talking
 #maggie:spiritTalking
+#maggie: idle
 The owner of the bar by your conapt?
 // Maggie talking
 #maggie:maggieTalking
 …
+#maggie: Talk
 Yes
 Can I finish my thought?
 // spirit talking
 #maggie:spiritTalking
+#maggie: idle
 My Apologies
 …
 Please Continue
 //Maggie Talking
 #maggie:maggieTalking
+#maggie: Talk
 He says that if you get far away enough from the city 
 You can see them
 Can you imagine that?
@@ -380,6 +400,7 @@ But that’s not an option anymore
 
 == Hopeless ==
 #maggie:maggieTalking
+#maggie: Talk
 Things were never great in the sump
 But ever since that factory opened 
 Things have only gotten worse
@@ -400,7 +421,7 @@ I want to have hope
 That things will be alright
 for the people I care about
 //Spirit Talking
-#maggie:idle
+#maggie:closedSmile
 … 
 #maggie:Talk
 I’m only one person
@@ -408,15 +429,14 @@ But I don’t want to give up
 not yet
 //Spirit Talking
 #maggie:spiritTalking
-#maggie:openSmile
+#maggie:closedSmile
 So what are you going to do?
 //Maggie Talking
 #maggie:maggieTalking
-#maggie:Talk
 I’m going to help the people I can
 *I can make air filters
 -> Good
-*I’m gonna fix up the old greenhouse
+*I’m gonna fix the greenhouse
 -> Good
 = Good
 // Spirit Talking
@@ -430,6 +450,7 @@ That sounds like a good start
 Yeah
 #maggie:openSmile
 …
+#maggie:Talk
 It Does
 #maggie:end
     -> END
@@ -442,6 +463,7 @@ FUCK YOU!
 SHOULD I JUST LAY DOWN!?!?!
 AND CHOKE TO DEATH ON THE FACTORY SMOKE!?!?!?
 // Spirit Talking
+#maggie:spiritTalking
 #maggie:idle
 That’s not what I meant…
 // Maggie Talking
@@ -449,27 +471,35 @@ That’s not what I meant…
 #maggie:Talk
 Should I have to watch the people I care for suffer!?!?!
 I HATE IT!!
+#maggie:idle
 …
+#maggie:Talk
 If I could... 
 I would burn every single Corporation’s pylon to the ground 
 And then burn it all over again just to make sure I finished the job
 // Spirit Talking
 #maggie:spiritTalking
+#maggie:idle
 And what would that do?
 You petulant child
 // Maggie Talking
 #maggie:maggieTalking
+#maggie:Talk
 It would make them suffer 
 Same way I have
 Same way everyone else in the sumps has too
 // Spirit Talking
+#maggie:idle
+#maggie:spiritTalking
 You’re a fool
  // Maggie Talking
  #maggie:maggieTalking
+ #maggie:Talk
 And you’re some stupid figment of a sump kid’s fractured brain
 So fuck off
 // Spirit Talking
 #maggie:spiritTalking
+#maggie:idle
 Maggie.. 
 I care about you
 And I don’t want you to suffer anymore 
@@ -478,10 +508,12 @@ This rage is going to kill you
 …
 //Maggie Talking
 #maggie:maggieTalking
+ #maggie:Talk
 I don’t care 
 Fuck off
 // Spirit Talking
 #maggie:idle
+#maggie:spiritTalking
 Very well
 //Spirit fades away
 #maggie:end

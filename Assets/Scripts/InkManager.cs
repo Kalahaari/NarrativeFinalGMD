@@ -198,13 +198,18 @@ public class InkManager : MonoBehaviour
                     } else if (tagValue == "Talk")
                     {
                         maggieScript.Talk();
-                    } else if (tagValue == "end")
+                    }
+                    else if (tagValue == "end")
                     {
-                        SceneManager.LoadScene(0);
+                       //yield return new WaitForSeconds(0.5f);
+                       SceneManager.LoadScene(0);
+                        
                     }
                     break;
 
-               
+
+
+
 
                 default:
                     Debug.LogWarning("an unknown key was found: " + tagKey);
